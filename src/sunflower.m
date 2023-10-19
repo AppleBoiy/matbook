@@ -1,9 +1,3 @@
-% Numberphile is one of my favorite YouTube channels. I watched a clip
-% about the golden ratio a long time ago, and I have tried to write a program
-% to prove why the golden ratio is irrational, but I haven't been able to do
-% that yet. Instead, I'm simulating a simple sunflower pattern.
-
-
 phi = (1 + sqrt(5)) / 2;
 angle = 2 * pi * (1 - 1 / phi);
 
@@ -34,5 +28,4 @@ grid minor;
 set(gca, 'GridColor', [0.5, 0.5, 0.5]);
 axis equal;
 
-% saveas(gcf, 'sunflower.png');
-
+% saveas(gcf, './img/sunflower.png');
